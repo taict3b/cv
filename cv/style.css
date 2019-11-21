@@ -1,0 +1,116 @@
+
+.header{
+    
+    max-width: 700px;
+    min-height: 182px;
+    background-color: #C36237;
+	display: flex;
+    margin: auto;
+    position: relative;
+}
+.avat{
+	vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.avatar{
+	
+	margin: auto;
+	margin-left:30px ;
+	width: 100px;
+	height: 100px;
+	
+}
+.ten{
+	text-align: center;
+	margin: 52px 0 15px 0; 
+	width: 200px;
+	height: 80px;
+	
+	text-shadow: 3px 2px goldenrod;
+}
+.tamgiac{
+	color: rgb(240, 255, 254);
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 0;
+	height: 0;
+	border-top: 150px solid #125780;
+	border-left: 90px solid transparent;
+}
+.hinhcn {
+	margin: 15px 0 15px 0;
+	width: 350px;
+	height: 150px;
+	background: #125780;
+}
+
+hr{
+	
+	border:1px solid #C36237;
+}
+
+.body{
+	
+	max-width: 700px;
+    min-height: 890px;
+    background-color: white;
+	display: flex;
+    margin: auto;
+    position: relative;
+}
+.left{
+	margin: 20px;
+	width: 500px;
+	height: 400px;
+	/* background-color: yellowgreen; */
+
+}
+.right{
+	margin: 20px;
+	width: 500px;
+	height: 400px;
+	/* background-color: yellowgreen; */
+
+}
+.footer{
+	margin: auto;
+	max-width: 700px;
+    min-height: 8px;
+    background-color: #C36237;
+}
+h1{
+	background: #125780;
+	color: rgb(241, 237, 237);
+	border-top-right-radius: 50px;
+}
+h4{
+	text-decoration: underline;
+	color: royalblue;
+}
+li{
+	font-style: italic;
+	font-size: 20px;
+	color: orange;
+	list-style: none;
+}
+h3{
+	
+	font-style: oblique;
+	color: lightcoral;
+	font-size: 20px;
+}
+@media only screen and (max-width: 400px) {
+
+	.header{
+    
+		width: 675px;
+		min-height: 182px;
+		background-color: #C36237;
+		display: flex;
+		/* margin: auto; */
+		/* position: relative; */
+	}
+	
+  }
